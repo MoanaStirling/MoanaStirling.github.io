@@ -1,11 +1,9 @@
-//var app = angular.module('MoanaStirling', []);
-
 var dropdown = function(){
 	$( ".wrapper-inner" ).hover(function(){
-        $(".box").stop().slideDown(500);
+        $(".button-box").stop().slideDown(1000);
     },
 	function(){
-		$(".box").stop().slideUp("slow");
+		$(".button-box").stop().slideUp(1000);
 	});
 };
 
