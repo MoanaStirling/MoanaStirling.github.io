@@ -19,6 +19,7 @@ body{
 }
 
 .circle{
+	cursor: pointer;
 	margin: auto;
 	width: 400px;
 	height: 400px;
@@ -42,7 +43,7 @@ body{
 	margin: auto;
 	top: -200px;
 	width: 270px; 
-	height: 300px;
+	height: 360px;
 	border: 10px solid #cccccc;
 	border-radius: 20%;
 	display: none;
@@ -75,6 +76,18 @@ body{
 	z-index: 10;
 }
 
+#CV {
+	width: 50px;
+	line-height: 50px;
+	color: black;
+	font-size: 28px;
+	font-faliy: "arail";
+	display: block;
+	position: absolute;
+	margin: auto;
+	z-index: 10;
+}
+
 .social-button span {
 	background-color: #33ccff;
 	border-radius: 0;
@@ -82,10 +95,10 @@ body{
 	height: 0;
 	margin: 0;
 	position: absolute;
-	-webkit-transition: all 0.4s;
-	   -moz-transition: all 0.4s;
-	     -o-transition: all 0.4s;
-	        transition: all 0.4s;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
 	width: 0;
 	left: 50%;
 	top: 50%;
@@ -97,4 +110,3 @@ body{
 	border-radius: 50px;
 	margin: -25px; 
 }
-
