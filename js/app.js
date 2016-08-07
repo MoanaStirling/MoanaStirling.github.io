@@ -1,4 +1,4 @@
-var dropdown = function(){
+/*var dropdown = function(){
 	$( ".wrapper-inner" ).hover(function(){
         $(".profile-tray").stop().slideDown(1000);
     },
@@ -7,4 +7,4 @@ var dropdown = function(){
 	});
 };
 
-$(document).ready(dropdown);
+$(document).ready(dropdown);*/

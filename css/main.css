@@ -1,6 +1,27 @@
+@-webkit-keyframes BackgroundAnimation{
+	0%{background-position:50% 75%}
+	50%{background-position:50% 0%}
+	100%{background-position:50% 75%}
+}
+@-moz-keyframes BackgroundAnimation{
+	0%{background-position:50% 75%}
+	50%{background-position:50% 0%}
+	100%{background-position:50% 75%}
+}
+@keyframes BackgroundAnimation{
+	0%{background-position:50% 75%}
+	50%{background-position:50% 0%}
+	100%{background-position:50% 75%}
+}	
+
 html{
-	background: linear-gradient(0deg, white 55%, #33ccff);
-	background-attachment: fixed;
+	background: linear-gradient(0deg, #283048, #33ccff, #e86a22);
+	background-size: 300% 300%;
+	
+	-webkit-animation: BackgroundAnimation 13s ease infinite;
+	-moz-animation: BackgroundAnimation 13s ease infinite;
+	animation: BackgroundAnimation 13s ease infinite;
+
 }
 
 body{
@@ -11,42 +32,63 @@ body{
 	padding: 150px;
 }
 
+#info-box{
+	margin-left: 200px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.8);
+	border: 10px solid white;
+	border-radius: 20%;
+	display: inline-block;
+	float: left;
+	width: 500px;
+	height: 500px;
+	font-family:;
+}
+
+#info-box h1{
+	padding:5px 10px;
+}
+
+#info-box p{
+	padding:5px 10px;
+	font-size: 20px;
+}
+
 .wrapper-inner{
-	margin: auto;
+	padding-left: 100px;
 	width: 420px;
 	height: 540px;
 	opacity: .99;
+	display: inline-block;
 }
 
 .circle{
 	cursor: pointer;
 	margin: auto;
-	width: 400px;
-	height: 400px;
-	background: white;
-	border: 10px solid #cccccc;
+	width: 410px;
+	height: 410px;
+	background: rgba(255, 255, 255, 1);
 	border-radius: 50%;
 }
 
 .circle-pic{
 	position: relative;
 	margin: auto;
-	top: 10px;
-	left: 10px;
+	top: 15px;
+	left: 15px;
 	width: 380px;
 	height: 380px;
 }
 
 .profile-tray{
 	position: relative;
-	background: white;
+	background: rgba(255, 255, 255, 0.8);
 	margin: auto;
 	top: -200px;
 	width: 270px; 
 	height: 360px;
-	border: 10px solid #cccccc;
+	border: 10px solid white;
 	border-radius: 20%;
-	display: none;
 	z-index: -1;
 	text-align: center;
 }
