@@ -29,10 +29,12 @@ body{
 }
 
 .wrapper-outer{
+	white-space: nowrap;
 	padding: 150px;
 }
 
 #info-box{
+	white-space: normal;
 	margin-left: 200px;
 	text-align: center;
 	background: rgba(255, 255, 255, 0.75);
@@ -55,6 +57,7 @@ body{
 }
 
 .wrapper-inner{
+	white-space: normal;
 	padding-left: 100px;
 	width: 420px;
 	height: 540px;
