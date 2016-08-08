@@ -37,8 +37,8 @@ body{
 	white-space: normal;
 	margin-left: 15%;
 	text-align: center;
-	background: rgba(255, 255, 255, 0.75);
-	border: 10px solid white;
+	background: rgba(255, 255, 255, 0.7);
+	border: 10px solid #33ccff;
 	border-radius: 20%;
 	display: inline-block;
 	float: left;
@@ -70,7 +70,7 @@ body{
 	margin: auto;
 	width: 410px;
 	height: 410px;
-	background: rgba(255, 255, 255, 1);
+	background: #33ccff;
 	border-radius: 50%;
 }
 
@@ -85,12 +85,12 @@ body{
 
 .profile-tray{
 	position: relative;
-	background: rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.7);
 	margin: auto;
 	top: -200px;
 	width: 270px; 
 	height: 360px;
-	border: 10px solid white;
+	border: 10px solid #33ccff;
 	border-radius: 20%;
 	z-index: -1;
 	text-align: center;
