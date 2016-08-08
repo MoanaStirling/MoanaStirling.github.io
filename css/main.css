@@ -44,7 +44,7 @@ body{
 	float: left;
 	width: 500px;
 	height: 500px;
-	font-family:;
+	font-family: Calibri;
 }
 
 #info-box h1{
@@ -126,7 +126,7 @@ body{
 	line-height: 55px;
 	color: black;
 	font-size: 30.8px;
-	font-faliy: "arial";
+	font-falmiy: Calibri;
 	display: block;
 	position: absolute;
 	margin: auto;
