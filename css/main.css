@@ -38,7 +38,7 @@ body{
 	margin-left: 15%;
 	text-align: center;
 	background: rgba(255, 255, 255, 0.7);
-	border: 10px solid #33ccff;
+	border: 10px solid white;
 	border-radius: 20%;
 	display: inline-block;
 	float: left;
@@ -70,7 +70,7 @@ body{
 	margin: auto;
 	width: 410px;
 	height: 410px;
-	background: #33ccff;
+	background: white;
 	border-radius: 50%;
 }
 
@@ -90,7 +90,7 @@ body{
 	top: -200px;
 	width: 270px; 
 	height: 360px;
-	border: 10px solid #33ccff;
+	border: 10px solid white;
 	border-radius: 20%;
 	z-index: -1;
 	text-align: center;
