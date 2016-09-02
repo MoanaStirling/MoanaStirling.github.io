@@ -1,27 +1,28 @@
-@-webkit-keyframes BackgroundAnimation{
-	0%{background-position:50% 75%}
-	50%{background-position:50% 0%}
-	100%{background-position:50% 75%}
+/*@-webkit-keyframes BackgroundAnimation{
+	from { background-position: -35px 0, -35px 0, 0 0, 0 0; }
+	to { background-position: calc(100%-35px) 0, calc(100%-35px) 0, 100% 0, 100% 0; }
 }
 @-moz-keyframes BackgroundAnimation{
-	0%{background-position:50% 75%}
-	50%{background-position:50% 0%}
-	100%{background-position:50% 75%}
-}
+	from { background-position: -35px 0, -35px 0, 0 0, 0 0; }
+	to { background-position: calc(100%-35px) 0, calc(100%-35px) 0, 100% 0, 100% 0; }
+}*/
 @keyframes BackgroundAnimation{
-	0%{background-position:50% 75%}
-	50%{background-position:50% 0%}
-	100%{background-position:50% 75%}
-}	
+	from { background-position: -35px 0, -35px 0, 0 0, 0 0; }
+	to { background-position: calc(100% - 35px) 0, calc(100% - 35px) 0, 100% 0, 100% 0;}
+}
 
 html{
-	background: linear-gradient(0deg, #283048, #33ccff, #e86a22);
-	background-size: 300% 300%;
-	
-	-webkit-animation: BackgroundAnimation 13s ease infinite;
-	-moz-animation: BackgroundAnimation 13s ease infinite;
-	animation: BackgroundAnimation 13s ease infinite;
+	height: 100%;
+	background-color: #66004d;
+	background-image:
+	linear-gradient(135deg, #1a001a 25%, transparent 25%),
+	linear-gradient(225deg, #1a001a 25%, transparent 25%),
+	linear-gradient(315deg, #1a001a 25%, transparent 25%),
+	linear-gradient(45deg, #1a001a 25%, transparent 25%);
+	background-position: -35px 0, -35px 0, 0 0, 0 0;
+	background-size: 70px 70px;
 
+	animation: BackgroundAnimation 60s linear infinite;
 }
 
 body{
@@ -87,7 +88,7 @@ body{
 	background: rgba(255, 255, 255, 0.7);
 	margin: auto;
 	top: -200px;
-	width: 270px; 
+	width: 270px;
 	height: 360px;
 	border: 10px solid white;
 	border-radius: 20%;
@@ -96,9 +97,10 @@ body{
 }
 
 .social-button{
+	font-color: white;
 	top: 200px;
 	position: relative;
-	background-color: #33ccff;
+	background-color: #66004d;
 	border-radius: 50%;
 	cursor: pointer;
 	display: inline-block;
@@ -112,7 +114,7 @@ body{
 .social-button i {
 	width: 55px;
 	line-height: 55px;
-	color: black;
+	color: white;
 	font-size: 38.5px;
 	display: block;
 	position: absolute;
@@ -123,9 +125,8 @@ body{
 #CV {
 	width: 55px;
 	line-height: 55px;
-	color: black;
+	color: white;
 	font-size: 30.8px;
-	font-falmiy: Calibri;
 	display: block;
 	position: absolute;
 	margin: auto;
@@ -133,7 +134,7 @@ body{
 }
 
 .social-button span {
-	background-color: #e86a22;
+	background-color: #1a001a;
 	border-radius: 0;
 	display: block;
 	height: 0;
@@ -152,5 +153,5 @@ body{
 	width: 55px;
 	height: 55px;
 	border-radius: 50%;
-	margin: -27.5px; 
+	margin: -27.5px;
 }
