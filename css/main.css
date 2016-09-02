@@ -1,11 +1,11 @@
-/*@-webkit-keyframes BackgroundAnimation{
+@-webkit-keyframes BackgroundAnimation{
 	from { background-position: -35px 0, -35px 0, 0 0, 0 0; }
-	to { background-position: calc(100%-35px) 0, calc(100%-35px) 0, 100% 0, 100% 0; }
+	to { background-position: calc(100% - 35px) 0, calc(100% - 35px) 0, 100% 0, 100% 0;}
 }
 @-moz-keyframes BackgroundAnimation{
 	from { background-position: -35px 0, -35px 0, 0 0, 0 0; }
-	to { background-position: calc(100%-35px) 0, calc(100%-35px) 0, 100% 0, 100% 0; }
-}*/
+	to { background-position: calc(100% - 35px) 0, calc(100% - 35px) 0, 100% 0, 100% 0;}
+}
 @keyframes BackgroundAnimation{
 	from { background-position: -35px 0, -35px 0, 0 0, 0 0; }
 	to { background-position: calc(100% - 35px) 0, calc(100% - 35px) 0, 100% 0, 100% 0;}
@@ -32,7 +32,7 @@ body{
 
 .wrapper-outer{
 	white-space: nowrap;
-	padding: 150px;
+	padding: 9.375em;
 }
 
 #info-box{
@@ -40,37 +40,37 @@ body{
 	margin-left: 15%;
 	text-align: center;
 	background: rgba(255, 255, 255, 0.7);
-	border: 10px solid #1a1a1a;
+	border: 0.625em solid #1a1a1a;
 	border-radius: 20%;
 	display: inline-block;
 	float: left;
-	width: 500px;
-	height: 500px;
+	width: 31.25em;
+	height: 31.25em;
 	font-family: Calibri;
 }
 
 #info-box h1{
-	padding:5px 10px;
+	padding:0.3125em 0.625em;
 }
 
 #info-box p{
-	padding:5px 10px;
-	font-size: 20px;
+	padding:0.3125em 0.625em;
+	font-size: 1.25em;
 }
 
 .wrapper-inner{
 	white-space: normal;
-	padding-left: 100px;
-	width: 420px;
-	height: 540px;
+	padding-left: 6.25em;
+	width: 26.25em;
+	height: 33.75em;
 	opacity: .99;
 	display: inline-block;
 }
 
 .circle{
 	margin: auto;
-	width: 410px;
-	height: 410px;
+	width: 25.625em;
+	height: 25.625em;
 	background: #1a1a1a;
 	border-radius: 50%;
 }
@@ -78,45 +78,45 @@ body{
 .circle-pic{
 	position: relative;
 	margin: auto;
-	top: 15px;
-	left: 15px;
-	width: 380px;
-	height: 380px;
+	top: 0.9375em;
+	left: 0.9375em;
+	width: 23.75em;
+	height: 23.75em;
 }
 
 .profile-tray{
 	position: relative;
 	background: rgba(255, 255, 255, 0.7);
 	margin: auto;
-	top: -200px;
-	width: 270px;
-	height: 360px;
-	border: 10px solid #1a1a1a;
+	top: -12.5em;
+	width: 16.875em;
+	height: 22.5em;
+	border: 0.625em solid #1a1a1a;
 	border-radius: 20%;
 	z-index: -1;
 	text-align: center;
 }
 
 .social-button{
-	font-color: white;
-	top: 200px;
+	color: white;
+	top: 12.5em;
 	position: relative;
 	background-color: #1a1a1a;
 	border-radius: 50%;
 	cursor: pointer;
 	display: inline-block;
-	height: 55px;
-	width: 55px;
+	height: 3.4375em;
+	width: 3.4375em;
 	text-align: center;
-	margin: 5px;
+	margin: 0.3125em;
 	outline : 0;
 }
 
 .social-button i {
-	width: 55px;
-	line-height: 55px;
+	width: 100%;
+	line-height: 3.4375rem;
 	color: white;
-	font-size: 38.5px;
+	font-size: 2.40625em;
 	display: block;
 	position: absolute;
 	margin: auto;
@@ -124,10 +124,10 @@ body{
 }
 
 #CV {
-	width: 55px;
-	line-height: 55px;
+	width: 100%;
+	line-height: 3.4375rem;
 	color: white;
-	font-size: 30.8px;
+	font-size: 1.925em;
 	display: block;
 	position: absolute;
 	margin: auto;
@@ -151,8 +151,8 @@ body{
 }
 
 .social-button:hover span {
-	width: 55px;
-	height: 55px;
+	width: 3.4375em;
+	height: 3.4375em;
 	border-radius: 50%;
-	margin: -27.5px;
+	margin: -1.71875em;
 }
