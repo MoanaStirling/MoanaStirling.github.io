@@ -1,11 +1,11 @@
-/*@-webkit-keyframes BackgroundAnimation{
+@-webkit-keyframes BackgroundAnimation{
 	from { background-position: -35px 0, -35px 0, 0 0, 0 0; }
 	to { background-position: calc(100%-35px) 0, calc(100%-35px) 0, 100% 0, 100% 0; }
 }
 @-moz-keyframes BackgroundAnimation{
 	from { background-position: -35px 0, -35px 0, 0 0, 0 0; }
 	to { background-position: calc(100%-35px) 0, calc(100%-35px) 0, 100% 0, 100% 0; }
-}*/
+}
 @keyframes BackgroundAnimation{
 	from { background-position: -35px 0, -35px 0, 0 0, 0 0; }
 	to { background-position: calc(100% - 35px) 0, calc(100% - 35px) 0, 100% 0, 100% 0;}
@@ -26,18 +26,18 @@ html{
 	animation: BackgroundAnimation 60s linear infinite;
 }
 
-body{
-	margin: 0;
-}
-
 .wrapper-outer{
+	padding-top: 5%;
+
+	display: flex;
+  align-items: center;
+  justify-content: center;
+
 	white-space: nowrap;
-	padding: 150px;
 }
 
 #info-box{
 	white-space: normal;
-	margin-left: 15%;
 	text-align: center;
 	background: rgba(255, 255, 255, 0.7);
 	border: 10px solid #1a1a1a;
