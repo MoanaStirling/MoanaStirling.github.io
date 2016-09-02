@@ -26,13 +26,15 @@ html{
 	animation: BackgroundAnimation 60s linear infinite;
 }
 
-.wrapper-outer{
-	padding-top: 5%;
+body{
+  height: 90%;
+}
 
-	display: flex;
+.wrapper-outer{
+  height: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
-
 	white-space: nowrap;
 }
 
@@ -62,7 +64,7 @@ html{
 	white-space: normal;
 	padding-left: 100px;
 	width: 420px;
-	height: 540px;
+	height: 590px;
 	opacity: .99;
 	display: inline-block;
 }
